@@ -1,0 +1,101 @@
+id_arret,date_heure,duree,type,raison,id_camion,id_conducteur
+489ebb18,2025-01-01 00:00:00,0:34:00,Pause,Vidange,10,01ccb423
+42dc2bbd,2025-01-02 00:00:00,1:03:00,Maintenance,Pause déjeuner,56,30827221
+3d29dc93,2025-01-03 00:00:00,1:42:00,Panne,Vidange,40,0669e30b
+1a93fca8,2025-01-04 00:00:00,1:45:00,Panne,Pause déjeuner,14,a28d354d
+8b0ad681,2025-01-05 00:00:00,0:37:00,Maintenance,Crevaison,78,01ccb423
+828d90f8,2025-01-06 00:00:00,0:15:00,Pause,Pause déjeuner,11,3d2e14bb
+b45bda29,2025-01-07 00:00:00,1:29:00,Maintenance,Crevaison,21,b2223d0b
+dd8dfd1f,2025-01-08 00:00:00,0:20:00,Maintenance,Crevaison,22,01804c80
+e1bef22f,2025-01-09 00:00:00,1:44:00,Maintenance,Vidange,51,03a20663
+186a50a3,2025-01-10 00:00:00,1:10:00,Panne,Crevaison,59,5fb745b7
+233cb959,2025-01-11 00:00:00,0:32:00,Maintenance,Pause déjeuner,84,655c701d
+f09ff492,2025-01-12 00:00:00,1:50:00,Panne,Réparation moteur,92,d1e2a98e
+a766fb9e,2025-01-13 00:00:00,0:45:00,Maintenance,Réparation moteur,48,ce4563d9
+2a881548,2025-01-14 00:00:00,0:10:00,Pause,Pause déjeuner,37,371bc1b7
+a18cb07e,2025-01-15 00:00:00,1:52:00,Maintenance,Crevaison,67,6ac9bb10
+31a03e92,2025-01-16 00:00:00,1:55:00,Maintenance,Réparation moteur,68,7e51b696
+6e194d90,2025-01-17 00:00:00,0:40:00,Pause,Vidange,22,b18b27f2
+8fd2ec45,2025-01-18 00:00:00,1:28:00,Panne,Réparation moteur,98,380055c7
+36fc1d79,2025-01-19 00:00:00,1:15:00,Panne,Crevaison,90,b427bd41
+7f71ca01,2025-01-20 00:00:00,1:06:00,Maintenance,Pause déjeuner,92,a65e5880
+53026617,2025-01-21 00:00:00,1:25:00,Panne,Pause déjeuner,46,c04eeced
+caec09ee,2025-01-22 00:00:00,1:18:00,Maintenance,Vidange,19,bff0c0c7
+b4242300,2025-01-23 00:00:00,1:04:00,Maintenance,Vidange,38,6023f930
+9e93b8e0,2025-01-24 00:00:00,0:18:00,Maintenance,Crevaison,4,655c701d
+57409c2f,2025-01-25 00:00:00,1:56:00,Pause,Réparation moteur,10,1aad3067
+e2f8804b,2025-01-26 00:00:00,0:48:00,Maintenance,Crevaison,45,6a9c4243
+80eaa21c,2025-01-27 00:00:00,0:48:00,Pause,Pause déjeuner,10,339b7726
+4f2fbb3e,2025-01-28 00:00:00,1:25:00,Panne,Vidange,88,b29d6090
+69fd1668,2025-01-29 00:00:00,1:05:00,Maintenance,Vidange,72,d6e8ab98
+c12c2402,2025-01-30 00:00:00,0:19:00,Maintenance,Vidange,64,412b4d03
+4f4061e3,2025-01-31 00:00:00,1:00:00,Panne,Réparation moteur,26,339b7726
+6a88c805,2025-02-01 00:00:00,1:17:00,Pause,Vidange,94,1fdd797e
+7ef49e1d,2025-02-02 00:00:00,0:42:00,Maintenance,Crevaison,81,d2fe3aa5
+f037fdc9,2025-02-03 00:00:00,1:47:00,Panne,Pause déjeuner,14,d9172b9b
+34046d1c,2025-02-04 00:00:00,0:46:00,Pause,Vidange,79,3dc7d423
+7434ce3c,2025-02-05 00:00:00,1:46:00,Maintenance,Réparation moteur,69,52231afd
+aa2094ca,2025-02-06 00:00:00,0:22:00,Maintenance,Vidange,97,a6660c3b
+401cfc76,2025-02-07 00:00:00,0:37:00,Maintenance,Crevaison,21,f41f1423
+3730e23e,2025-02-08 00:00:00,1:19:00,Pause,Pause déjeuner,10,ce4563d9
+5e5d736e,2025-02-09 00:00:00,0:22:00,Panne,Vidange,12,55ac0190
+bff55b02,2025-02-10 00:00:00,0:13:00,Panne,Crevaison,13,687fad42
+19764fd2,2025-02-11 00:00:00,1:30:00,Pause,Réparation moteur,4,bff8c471
+697b9492,2025-02-12 00:00:00,0:17:00,Pause,Réparation moteur,42,ee908026
+9de64a52,2025-02-13 00:00:00,0:57:00,Maintenance,Réparation moteur,4,a6660c3b
+b6101e06,2025-02-14 00:00:00,1:10:00,Panne,Vidange,66,28a87db0
+239b302e,2025-02-15 00:00:00,0:53:00,Pause,Réparation moteur,59,6ac9bb10
+aa662966,2025-02-16 00:00:00,0:26:00,Pause,Pause déjeuner,12,6023f930
+a6561846,2025-02-17 00:00:00,0:14:00,Panne,Pause déjeuner,47,655c701d
+f0a2ffa7,2025-02-18 00:00:00,1:19:00,Pause,Pause déjeuner,24,eb9790bb
+b21cfe69,2025-02-19 00:00:00,1:25:00,Panne,Réparation moteur,52,9a14052e
+cc76c220,2025-02-20 00:00:00,1:46:00,Maintenance,Crevaison,6,d2fe3aa5
+74dc87ef,2025-02-21 00:00:00,1:24:00,Maintenance,Vidange,53,8fd57d3b
+e7e1e656,2025-02-22 00:00:00,1:09:00,Pause,Réparation moteur,4,f07caa10
+edda5481,2025-02-23 00:00:00,1:01:00,Maintenance,Réparation moteur,54,5fb745b7
+f35d6dd4,2025-02-24 00:00:00,1:48:00,Pause,Pause déjeuner,36,b29d6090
+45f82f8c,2025-02-25 00:00:00,1:03:00,Panne,Réparation moteur,93,d188a921
+fbb303cd,2025-02-26 00:00:00,0:13:00,Maintenance,Pause déjeuner,37,5bfb1675
+dc206177,2025-02-27 00:00:00,0:47:00,Panne,Réparation moteur,21,16e058d7
+56df81f5,2025-02-28 00:00:00,0:29:00,Panne,Réparation moteur,78,1da7d4e0
+636a870b,2025-03-01 00:00:00,0:22:00,Panne,Pause déjeuner,22,71920e93
+8cca7e1c,2025-03-02 00:00:00,1:01:00,Panne,Crevaison,11,6d7cbf01
+97b14082,2025-03-03 00:00:00,1:42:00,Maintenance,Pause déjeuner,93,1da7d4e0
+c6555071,2025-03-04 00:00:00,1:40:00,Maintenance,Crevaison,16,d188a921
+066f909a,2025-03-05 00:00:00,0:13:00,Maintenance,Réparation moteur,47,b2223d0b
+bb14fbff,2025-03-06 00:00:00,0:41:00,Pause,Pause déjeuner,56,cb6ccae8
+3081832f,2025-03-07 00:00:00,1:40:00,Pause,Crevaison,3,6ac9bb10
+71978cc4,2025-03-08 00:00:00,0:32:00,Pause,Crevaison,72,beea5737
+daaf498f,2025-03-09 00:00:00,1:56:00,Pause,Pause déjeuner,59,ae5530ec
+b698a2c5,2025-03-10 00:00:00,1:21:00,Maintenance,Pause déjeuner,5,a6fcc84f
+01b4dba3,2025-03-11 00:00:00,1:50:00,Maintenance,Réparation moteur,73,a333833c
+be720aad,2025-03-12 00:00:00,1:01:00,Panne,Crevaison,27,7a7ccea9
+dd8918ee,2025-03-13 00:00:00,1:39:00,Panne,Pause déjeuner,63,d2fe3aa5
+4c3ba2d8,2025-03-14 00:00:00,1:01:00,Pause,Réparation moteur,20,7a7ccea9
+57fed9fb,2025-03-15 00:00:00,1:14:00,Pause,Vidange,50,a6660c3b
+98fa0926,2025-03-16 00:00:00,1:41:00,Maintenance,Pause déjeuner,61,380055c7
+21ac8215,2025-03-17 00:00:00,1:22:00,Maintenance,Crevaison,97,e83f8f2e
+33d1337b,2025-03-18 00:00:00,1:48:00,Pause,Réparation moteur,43,c04eeced
+d8ad0c65,2025-03-19 00:00:00,1:28:00,Pause,Pause déjeuner,55,bff8c471
+947980c7,2025-03-20 00:00:00,1:06:00,Maintenance,Réparation moteur,67,a76a22d7
+40a4e14d,2025-03-21 00:00:00,0:31:00,Maintenance,Crevaison,96,5bfb1675
+0fd83c94,2025-03-22 00:00:00,0:48:00,Maintenance,Réparation moteur,67,1aad3067
+fd9633c2,2025-03-23 00:00:00,1:20:00,Panne,Pause déjeuner,98,ae5530ec
+cbb33853,2025-03-24 00:00:00,0:30:00,Maintenance,Crevaison,96,bff8c471
+a139abde,2025-03-25 00:00:00,1:18:00,Panne,Crevaison,96,6023f930
+eb845d8a,2025-03-26 00:00:00,0:51:00,Pause,Réparation moteur,65,1a82cb10
+2f87058f,2025-03-27 00:00:00,1:22:00,Panne,Crevaison,92,99cd690e
+9895a74c,2025-03-28 00:00:00,1:09:00,Pause,Réparation moteur,28,c6c2442b
+3f71563d,2025-03-29 00:00:00,1:36:00,Panne,Réparation moteur,34,999a1d6b
+b18878fa,2025-03-30 00:00:00,0:14:00,Pause,Réparation moteur,13,ce4563d9
+e1867893,2025-03-31 00:00:00,1:54:00,Pause,Réparation moteur,63,28a87db0
+cceeedd5,2025-04-01 00:00:00,1:38:00,Maintenance,Crevaison,21,6ac9bb10
+f3f5dee1,2025-04-02 00:00:00,1:20:00,Panne,Crevaison,62,c04eeced
+293155a9,2025-04-03 00:00:00,1:42:00,Pause,Vidange,20,40d34719
+53ab4800,2025-04-04 00:00:00,1:44:00,Panne,Vidange,27,3dc7d423
+74861281,2025-04-05 00:00:00,1:26:00,Pause,Réparation moteur,81,01ccb423
+cf906555,2025-04-06 00:00:00,1:25:00,Panne,Vidange,11,d1e2a98e
+92a216f6,2025-04-07 00:00:00,1:43:00,Maintenance,Pause déjeuner,41,7a7ccea9
+28815690,2025-04-08 00:00:00,0:16:00,Maintenance,Vidange,63,f3d7f438
+bb61c98e,2025-04-09 00:00:00,1:12:00,Maintenance,Crevaison,54,6023f930
+fab7e636,2025-04-10 00:00:00,0:46:00,Panne,Vidange,47,ee908026
