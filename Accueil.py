@@ -59,7 +59,7 @@ with col3:
 with col4:
     render_kpi("Teneur Moyenne P₂O₅", f"{kpis['avg_phosphate']:.2f} %", f"Humidité moy: {kpis['avg_humidite']:.2f} %", SUCCESS_COLOR)
 
-st.markdown("<div style='margin-top: 1rem;'></div>", unsafe_allow_html=True)
+st.markdown("", unsafe_allow_html=True)
 
 col5, col6, col7, col8 = st.columns(4)
 with col5:
