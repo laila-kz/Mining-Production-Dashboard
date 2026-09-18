@@ -1,7 +1,7 @@
 """
 Database Connector and Query Utilities for Mining Production Dashboard.
 Provides thread-safe connection context managers, parameterized query execution,
-and pandas DataFrame converters.
+automatic cloud initialization, and pandas DataFrame converters.
 """
 
 import sqlite3
@@ -14,8 +14,23 @@ DB_NAME = os.getenv("MINING_DB_PATH", "mining_db.sqlite")
 ALLOWED_TABLES = {"site", "camion", "conducteur", "qualite", "voyage", "arret"}
 
 
+def ensure_db_initialized(db_path: str = DB_NAME):
+    """
+    Guarantees the SQLite database exists and is populated with data.
+    Automatically runs ETL ingestion on cloud deployments (Streamlit Cloud, Hugging Face, Render).
+    """
+    if not os.path.exists(db_path) or os.path.getsize(db_path) == 0:
+        try:
+            from setup_db import setup
+            print(f"[INFO] Database '{db_path}' not found. Auto-initializing schema & CSV data...")
+            setup(db_path=db_path)
+        except Exception as e:
+            print(f"[ERROR] Failed to auto-initialize database: {e}")
+
+
 def get_connection(db_path: str = DB_NAME) -> sqlite3.Connection:
     """Returns a raw SQLite connection with Foreign Keys enabled and Row factory."""
+    ensure_db_initialized(db_path)
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON;")
